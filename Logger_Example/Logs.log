@@ -1,0 +1,30 @@
+579  [main] INFO  com.dailycodebuffer.ws.Application - Starting Application using Java 1.8.0_361 on DESKTOP-K4GP5P7 with PID 12224 (C:\Users\Lenovo\Documents\GraphWorkspace\Logger_Example\target\classes started by Lenovo in C:\Users\Lenovo\Documents\GraphWorkspace\Logger_Example)
+582  [main] INFO  com.dailycodebuffer.ws.Application - No active profile set, falling back to default profiles: default
+1519 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8084 (http)
+1528 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+1528 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.44]
+1596 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+1596 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 974 ms
+1856 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+1864 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+1929 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 3 mappings in 'requestMappingHandlerMapping'
+1952 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+1958 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2012 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2039 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8084 (http) with context path ''
+2048 [main] INFO  com.dailycodebuffer.ws.Application - Started Application in 1.814 seconds (JVM running for 2.542)
+6304 [http-nio-8084-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+6305 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+6305 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+6305 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+6305 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+6306 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5b22b970
+6306 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@57fae983
+6306 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+6306 [http-nio-8084-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+6317 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/", parameters={}
+6320 [http-nio-8084-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.dailycodebuffer.ws.SimpleController#home()
+6331 [http-nio-8084-exec-1] INFO  c.d.ws.SimpleController - hey dear logger is working properly
+6341 [http-nio-8084-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'text/html', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+6342 [http-nio-8084-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing ["Welcome to daily code buffer"]
+6350 [http-nio-8084-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
